@@ -1,6 +1,6 @@
 ## the tasks is to make 9 scripts:
 1. personal identity generator (indo: biodata diri)
-2. three dimensional shapes, such as: (indo: bangun ruang)
+2. three dimensional shapes calculator, such as: (indo: bangun ruang)
     - cube (kubus),
     - beam (balok),
     - cylinder (tabung),
