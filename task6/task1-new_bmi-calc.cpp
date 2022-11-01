@@ -1,7 +1,7 @@
 /*
 	Author		: Wahyu Priambodo (2207421048)
 	Class		: TMJ 1B
-	Created on	: Tuesday, Oct 31, 2022
+	Created on	: Tuesday, Nov 1, 2022
 */
 
 // ref link: https://www.calculator.net/bmi-calculator.html
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 				chk = "(Perempuan) ";
 				break;
 			default:
-				system("exit");
+				goto REPEAT;
 		}
 		cout << nl;
 		cout << "Masukan tinggi badan Anda: "; cin >> height;
@@ -77,10 +77,12 @@ int main(int argc, char *argv[])
 		}
 		
 		cout << "----------------------------------------------------------" << nl;
-		cout << "Indeks Masa Tubuh Anda " << fixed << setprecision(1) << bmi << nl;
-		cout << "Keterangan: " << chk << nl;
+		cout << "Indeks Masa Tubuh Anda\t: " << fixed << setprecision(1) << bmi << nl;
+		cout << "Keterangan\t\t: " << chk << nl;
 		cout << "----------------------------------------------------------" << nl;
 		
+		REPEAT:
+		cout << nl;
 		cout << "Ulangi? (y/n): "; cin >> next;
 		tolower(next);
 		if(next == 'n' || (next != 'y' && next != 'n'))
