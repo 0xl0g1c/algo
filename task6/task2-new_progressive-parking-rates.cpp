@@ -1,7 +1,7 @@
 /*
 	Author		: Wahyu Priambodo (2207421048)
 	Class		: TMJ 1B
-	Created on	: Tuesday, Oct 31, 2022
+	Created on	: Tuesday, Nov 1, 2022
 */
 
 #include <iostream>
